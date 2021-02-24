@@ -15,7 +15,7 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
 
-
+nishanth = new Ground(200,300,4.8,35)
     ground = new Ground(600,height,1200,20);
     platform = new Ground(150, 305, 300, 170);
 
@@ -50,6 +50,7 @@ function draw(){
     pig1.display();
     log1.display();
 
+    nishanth.display();
     box3.display();
     box4.display();
     pig3.display();
